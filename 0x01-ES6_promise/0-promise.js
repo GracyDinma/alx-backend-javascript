@@ -1,7 +1,3 @@
-const myPromise = () => {
-  return new Promise((resolve) => {
-    resolve('Promise resolved');
-  });
-};
+const myPromise = () => new Promise((resolve) => resolve('Promise resolved'));
 
 module.exports = myPromise;
